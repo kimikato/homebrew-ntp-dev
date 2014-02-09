@@ -4,10 +4,10 @@ require "formula"
 #                /usr/local/Library/Contributions/example-formula.rb
 
 class NtpDev < Formula
-  url "http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/ntp-dev-4.2.7p418.tar.gz"
-  version "4.2.7p418"
+  url "http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-dev/ntp-dev-4.2.7p419.tar.gz"
+  version "4.2.7p419"
   homepage "http://www.ntp.org/index.html"
-  sha1 "fd0496c9160d69a4515392c2f77f9f19af69c6e4"
+  sha1 "e9216f772d8defbc5208e1e03e429176c40773e8"
 
   def install
     args = ["--prefix=#{prefix}", "--disable-debug", "--disable-dependency-tracking", "--disable-silent-rules"]
